@@ -3,7 +3,7 @@ import { Editor } from '@tinymce/tinymce-react';
 import { Moon, Sun, Briefcase, Plus, Code, Layers, Cloud, Mail, ArrowRight } from 'lucide-react';
 import './App.css';
 
-const API_URL = "http://localhost:5000/api/projects";
+const API_URL = "https://my-portfolio-backend-e8mp.onrender.com/api/projects";
 
 const FEATURED = [
   { id: 'f1', title: 'Portfolio CMS', desc: 'A full-stack content management system built with React & Node.js.', img: '/project1.jpg', tag: 'Web Dev' },
